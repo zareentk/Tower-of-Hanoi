@@ -74,7 +74,6 @@ void hantow(int nod, int pego[9], int pegd[9], int pegh[9]){
 		hantow(nod-1,pegh,pegd,pego);
 
 	}
-	//move(pego,pegd,pegh);
 }
 void init(int nod,int peg1[9]){
 	int i;
